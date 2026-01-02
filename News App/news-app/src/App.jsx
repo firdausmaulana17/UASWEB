@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Navbar setCategory={setCategory}/>
       <NewsArea category={category}/>
-      <Footer />
+      <Footer/>
 
     </div>
   )
